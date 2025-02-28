@@ -12,6 +12,9 @@ int pow(int a)
 }
 //aboba
 //ttttttttЯживой
+void draw(int a){
+    return 0;
+}
 int main()
 {
     std::cout << 1010110;
