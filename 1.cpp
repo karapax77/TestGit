@@ -4,6 +4,10 @@ void print(int a)
 {
     std::cout << a;
 }
+int pow(int a)
+{
+    return a*a;
+}
 //aboba
 //ttttttttЯживой
 int main()
