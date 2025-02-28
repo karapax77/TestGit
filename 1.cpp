@@ -3,6 +3,7 @@
 void print(int a)
 {
     std::cout << a;
+    std::cout << 'a' << std::endl;
 }
 //aboba
 //ttttttttЯживой
