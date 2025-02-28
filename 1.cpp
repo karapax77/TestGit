@@ -6,6 +6,7 @@ void print(int a)
 }
 int pow(int a)
 {
+    std::cout << 'a';
     return a*a;
 }
 //aboba
