@@ -8,6 +8,7 @@
 #include <QString>
 #include <math.h>
 #include <windows.h>
+#include <QMessageBox>
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
 QT_END_NAMESPACE
@@ -20,22 +21,6 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
     QStandardItemModel *TableModel;
-    struct DataInMoment
-    {
-        qreal m;
-        qreal F;
-        qreal t;
-        qreal x;
-        qreal y;
-        qreal Vx;
-        qreal Vy;
-        qreal r;
-        qreal V;
-        qreal U;
-        qreal K;
-        qreal E;
-    };
-    qreal round2(qreal num);//округление до 2 знаков
 public slots:
     void Simulation();
 private:
